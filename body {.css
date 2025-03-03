@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.about {
+    border: 2px solid #ddd;        /* Border around the section */
+    padding: 20px;                 /* Padding inside the box */
+    text-align: center;
+    background-color: #f9f9f9;     /* Light background color */
+    border-radius: 8px;            /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px;              /* Optional: limit the width */
+    margin: 20px auto;             /* Center the section with some spacing */
+}
+
+/* Optional: Styling for the header and paragraph inside the box */
+.about h2 {
+    color: #333;                  /* Dark text for the header */
+    font-size: 1rem;              /* Adjust header size */
+    text-align: center;
+}
+
+.about p {
+    color: #555;                  /* Lighter color for the text */
+    line-height: 1.6;             /* Adjust line spacing */
+    text-align: center;
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 450px;  /* Adjust this as needed */
+    height: auto;
+}
+
+/* Gallery layout (Flexbox) */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Space between images */
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;  /* Adjust to make images smaller */
+    height: auto;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
